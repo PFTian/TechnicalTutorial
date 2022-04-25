@@ -1,9 +1,9 @@
-
 # Gitlab Installation on Ubuntu 20.04 LTS
+
 ## Content
 
-* [Requirements](#Requirements)
-* [Installation](#Installation)
+- [Requirements](#Requirements)
+- [Installation](#Installation)
 
 ## Requirements
 
@@ -12,21 +12,25 @@ The official hardware requirements is listed in [this page](https://docs.gitlab.
 Based on the official document, the below hardware is needed for a server.
 
 > ## CPU
+>
 > The following is the recommended minimum CPU hardware guidance for a handful of example GitLab user base sizes.
-> * **4 cores** is the **recommended** minimum number of cores and supports up to 500 users
-> * 8 cores supports up to 1000 users
+>
+> - **4 cores** is the **recommended** minimum number of cores and supports up to 500 users
+> - 8 cores supports up to 1000 users
 
 > ## Memory
+>
 > The following is the recommended minimum Memory hardware guidance for a handful of example GitLab user base sizes.
-> * **4GB RAM** is the **required** minimum memory size and supports up to 500 users
-> * 8GB RAM supports up to 1000 users
+>
+> - **4GB RAM** is the **required** minimum memory size and supports up to 500 users
+> - 8GB RAM supports up to 1000 users
 
 Based on my testing/experiment. The minimum hardware requirement that can run gitlab smoothly is
 
-Hardware | Value
----- | ----
-CPU  | 2 Cores
-Memory | 4GB RAM
+| Hardware | Value   |
+| -------- | ------- |
+| CPU      | 2 Cores |
+| Memory   | 4GB RAM |
 
 With this hardware, we don't need to add any swap space on the server.
 
@@ -34,26 +38,25 @@ However, based on the suggestion from the official document
 
 > In addition to the above, we generally recommend having at least 2GB of swap on your server, even if you currently have enough available RAM. Having swap will help reduce the chance of errors occurring if your available memory changes. We also recommend configuring the kernel’s swappiness setting to a low value like 10 to make the most of your RAM while still having the swap available when needed.
 
-We'd better to add a swap space on the server. (*Reference*: [How to add swap space on ubuntu 18.04](https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-18-04/))
-
+We'd better to add a swap space on the server. (_Reference_: [How to add swap space on ubuntu 18.04](https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-18-04/))
 
 With adding swap space (at leaset 2 GB) on linux server, the machine with below hardware can also run the gitlab.
 
-Hardware | Value
----- | ----
-CPU  | 1 Core
-Memory | 1GB RAM
-Swap | 4GB
+| Hardware | Value   |
+| -------- | ------- |
+| CPU      | 1 Core  |
+| Memory   | 1GB RAM |
+| Swap     | 4GB     |
 
-Hardware | Value
----- | ----
-CPU  | 1 Core
-Memory | 2GB RAM
-Swap | 2GB
+| Hardware | Value   |
+| -------- | ------- |
+| CPU      | 1 Core  |
+| Memory   | 2GB RAM |
+| Swap     | 2GB     |
 
 ## Installation
 
-OS: *Ubuntu 16.04LTS 18.04LTS 20.04LTS*
+OS: _Ubuntu 16.04LTS 18.04LTS 20.04LTS_
 
 ### 1. Install and configure the necessary dependencies
 
@@ -74,7 +77,8 @@ sudo apt-get install -y postfix
 
 During Postfix installation a configuration screen may appear. Select `Internet Site` and press enter. Use your server's external DNS for `mail name` and press enter. If additional screens appear, continue to press enter to accept the defaults.
 
-*TODO*:
+_TODO_:
+
 - [ ] Solve how to config postfix. Based on the current postfix configuration during above description, the postfix cannot send email to the registered users.
 
 ### 2. Add the GitLab package repository and install the package
@@ -87,13 +91,14 @@ Add the GitLab package repository
 curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
 ```
 
-*__NOTE: Mainland Server Installation__* 
+_**NOTE: Mainland Server Installation**_
 
-For the server in the mainland China, it is better to change the gitlab official repository to  tsinghua gitlab repository, otherwise, it will be very slow to download the gitlab. 
+For the server in the mainland China, it is better to change the gitlab official repository to tsinghua gitlab repository, otherwise, it will be very slow to download the gitlab.
 
 ```bash
 sudo vim /etc/apt/sources.list.d/gitlab_gitlab-ce.list
 ```
+
 Replace or comment the below lines
 
 ```
@@ -125,9 +130,9 @@ For `https://` URLs GitLab will automatically request a certificate with **Let's
 sudo EXTERNAL_URL="https://gitlab.example.com" apt-get install gitlab-ee
 ```
 
-*Reference* [How to assign a domain name to a server]()
+_Reference_ [How to assign a domain name to a server](#)
 
-### 3. Browse to the hostname and login 
+### 3. Browse to the hostname and login
 
 Unless you provided a custom password during installation, a password will be randomly generated and stored for 24 hours in `/etc/gitlab/initial_root_password`. Use this password with username `root` to login.
 

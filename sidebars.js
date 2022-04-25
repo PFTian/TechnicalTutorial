@@ -21,7 +21,12 @@ const sidebars = {
     {
       type: 'category',
       label: 'GitLab',
-      items: ['devops/gitlab/gitlab-backup-and-restore'],
+      items: [
+        'devops/gitlab/gitlab-installation-ubuntu',
+        'devops/gitlab/gitlab-runner-installation-ubuntu',
+        'devops/gitlab/gitlab-backup-and-restore',
+        'devops/gitlab/gitlab-reactjs-ci-cd'
+      ],
     },
   ],
   otherSidebar: [
@@ -31,7 +36,6 @@ const sidebars = {
       items: ['others/iterm2/config-iterm2-on-mac'],
     },
   ],
-  
 };
 
 module.exports = sidebars;
