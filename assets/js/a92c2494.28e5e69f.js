@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktechnical_tutorial=self.webpackChunktechnical_tutorial||[]).push([[9622],{9691:function(t){t.exports=JSON.parse('{"permalink":"/TechnicalTutorial/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
