@@ -19,21 +19,83 @@ const sidebars = {
   // But you can create a sidebar manually
   devopsSidebar: [
     {
+      type: 'doc',
+      id: 'devops/intro',
+    },
+    {
       type: 'category',
       label: 'GitLab',
       items: [
         'devops/gitlab/gitlab-installation-ubuntu',
         'devops/gitlab/gitlab-runner-installation-ubuntu',
         'devops/gitlab/gitlab-backup-and-restore',
-        'devops/gitlab/gitlab-reactjs-ci-cd'
+        'devops/gitlab/gitlab-reactjs-ci-cd',
       ],
+    },
+    {
+      type: 'category',
+      label: 'GitHub',
+      items: ['devops/github/intro'],
+    },
+  ],
+  dockerSidebar: [
+    {
+      type: 'category',
+      label: 'Docker',
+      items: ['docker/docker-installation'],
+    },
+  ],
+  gitSidebar: [
+    {
+      type: 'category',
+      label: 'Git',
+      items: ['git/tips'],
+    },
+  ],
+  javaSideBar: [
+    {
+      type: 'doc',
+      id: 'java/tips',
+    },
+  ],
+  nginxSideBar: [
+    {
+      type: 'doc',
+      label: 'Introduction',
+      id: 'nginx/intro',
+    },
+  ],
+  nodejsSideBar: [
+    {
+      type: 'doc',
+      label: 'Introduction',
+      id: 'nodejs/intro',
+    },
+  ],
+  reactjsSideBar: [
+    {
+      type: 'doc',
+      id: 'reactjs/eslint-prettier-reactjs',
+    },
+  ],
+  reactnativeSideBar: [
+    {
+      type: 'doc',
+      id: 'reactnative/add-redux-to-react-native',
+    },
+    {
+      type: 'doc',
+      id: 'reactnative/create-theme-for-react-native-app',
+    },
+    {
+      type: 'doc',
+      id: 'reactnative/tips',
     },
   ],
   otherSidebar: [
     {
-      type: 'category',
-      label: 'iTerm 2',
-      items: ['others/iterm2/config-iterm2-on-mac'],
+      type: 'doc',
+      id: 'others/iterm2/config-iterm2-on-mac',
     },
   ],
 };
