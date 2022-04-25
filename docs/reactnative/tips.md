@@ -96,3 +96,4 @@ find ~/.gradle -type f -name "*.lock" -delete
    `Preference...` -> `Appearance & Behavior` -> `System Settings` -> `Android SDK` -> `SDK Tools` -> Tick `Android Emulator` -> Click `Apply` and `OK`.
 
    ![image](./assets/androidSDK.png)
+
