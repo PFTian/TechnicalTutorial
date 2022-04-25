@@ -9,12 +9,12 @@ const config = {
   title: 'Technical Tutorial',
   tagline: 'My Study Notes',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/TechnicalTutorial/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'PFTian', // Usually your GitHub org/user name.
+  projectName: 'TechnicalTutorial', // Usually your repo name.
 
   presets: [
     [
@@ -96,12 +96,6 @@ const config = {
             docId: 'reactnative/tips',
             position: 'left',
             label: 'ReactNative',
-          },
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'VSCode',
           },
           {
             type: 'doc',

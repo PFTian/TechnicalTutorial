@@ -97,6 +97,10 @@ const sidebars = {
       type: 'doc',
       id: 'others/iterm2/config-iterm2-on-mac',
     },
+    {
+      type: 'doc',
+      id: 'others/vscode-plugins'
+    }
   ],
 };
 
