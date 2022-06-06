@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Technical Tutorial',
-  tagline: 'My Study Notes',
+  tagline: 'My Study Notes, this project is still under development',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/TechnicalTutorial/',
   onBrokenLinks: 'throw',
