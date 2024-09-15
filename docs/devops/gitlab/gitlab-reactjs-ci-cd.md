@@ -524,7 +524,7 @@ If you have your personal server, you can deploy your app on your own app. The a
     <img width="768" alt="image" src="https://user-images.githubusercontent.com/10986601/116058612-96d71680-a6b2-11eb-8674-facfe934e355.png" />
   - Click `Add Variable` to save the variable.
 
-- Then we add another varialbe called `SERVER_IP` with your <server_ip> as value. Choose Type as `Variable`.
+- Then we add another varialbe called `SERVER_IP` with your `<server_ip>` as value. Choose Type as `Variable`.
 
     <img width="768" alt="image" src="https://user-images.githubusercontent.com/10986601/116061331-5036eb80-a6b5-11eb-9568-06180b4107cd.png" />
 

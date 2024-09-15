@@ -1,39 +1,39 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Technical Tutorial',
-  tagline: 'My Study Notes, this project is still under development',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/TechnicalTutorial/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'PFTian', // Usually your GitHub org/user name.
-  projectName: 'TechnicalTutorial', // Usually your repo name.
+  title: "Technical Tutorial",
+  tagline: "My Study Notes, this project is still under development",
+  url: "https://your-docusaurus-test-site.com",
+  baseUrl: "/TechnicalTutorial/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "PFTian", // Usually your GitHub org/user name.
+  projectName: "TechnicalTutorial", // Usually your repo name.
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -43,12 +43,30 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Technical Tutorials',
+        title: "Technical Tutorials",
         logo: {
-          alt: 'Technical Tutorials',
-          src: 'img/logo.svg',
+          alt: "Technical Tutorials",
+          src: "img/logo.svg",
         },
         items: [
+          {
+            type: 'doc',
+            docId: 'scrum/intro',
+            position: 'left',
+            label: 'Scrum',
+          },
+          {
+            type: 'doc',
+            docId: 'languages/intro',
+            position: 'left',
+            label: 'Languages',
+          },
+          {
+            type: 'doc',
+            docId: 'cloud-infrastructure/intro',
+            position: 'left',
+            label: 'Cloud Infrastructure',
+          },
           {
             type: 'doc',
             docId: 'devops/intro',
@@ -57,98 +75,75 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'docker/docker-installation',
+            docId: 'dataops/intro',
             position: 'left',
-            label: 'Docker',
+            label: 'DataOps',
           },
           {
             type: 'doc',
-            docId: 'git/tips',
+            docId: 'fullstack-backend/intro',
             position: 'left',
-            label: 'Git',
+            label: 'Back-End',
           },
           {
             type: 'doc',
-            docId: 'java/tips',
+            docId: 'fullstack-frontend/intro',
             position: 'left',
-            label: 'Java',
+            label: 'Front-End',
           },
           {
             type: 'doc',
-            docId: 'nginx/intro',
+            docId: 'ides-and-dev-tools/intro',
             position: 'left',
-            label: 'nginx',
+            label: 'IEDs & Dev Tools',
           },
+          { to: "/blog", label: "Blog", position: "left" },
           {
-            type: 'doc',
-            docId: 'nodejs/intro',
-            position: 'left',
-            label: 'NodeJS',
-          },
-          {
-            type: 'doc',
-            docId: 'reactjs/eslint-prettier-reactjs',
-            position: 'left',
-            label: 'ReactJS',
-          },
-          {
-            type: 'doc',
-            docId: 'reactnative/tips',
-            position: 'left',
-            label: 'ReactNative',
-          },
-          {
-            type: 'doc',
-            docId: 'others/iterm2/config-iterm2-on-mac',
-            label: 'Others'
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/PFTian/TechnicalTutorials',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/PFTian/TechnicalTutorials",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: "Tutorial",
+                to: "/docs/intro",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: "Stack Overflow",
+                href: "https://stackoverflow.com/questions/tagged/docusaurus",
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: "Discord",
+                href: "https://discordapp.com/invite/docusaurus",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: "Twitter",
+                href: "https://twitter.com/docusaurus",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Blog",
+                to: "/blog",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/PFTian/TechnicalTutorials',
+                label: "GitHub",
+                href: "https://github.com/PFTian/TechnicalTutorials",
               },
             ],
           },
@@ -156,8 +151,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
       },
     }),
 };
