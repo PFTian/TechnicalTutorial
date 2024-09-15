@@ -96,7 +96,7 @@ Here is my choices:
 
 - **_Which style guide do you want to follow?_**
 
-  **_Airbnb: <https://github.com/airbnb/javascript>_**
+  **_Airbnb: [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)_**
 
 - **_What format do you want your config file to be in?_**
 
