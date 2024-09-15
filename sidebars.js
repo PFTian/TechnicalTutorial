@@ -35,7 +35,6 @@ const sidebars = {
       id: "cloud-infrastructure/intro",
     },
   ],
-  dataOpsSidebar: [],
   devopsSidebar: [
     {
       type: "doc",
@@ -57,6 +56,7 @@ const sidebars = {
     //   items: ['devops/github/intro'],
     // }
   ],
+  dataOpsSidebar: [],
   backendSidebar: [],
   frontendSidebar: [],
   idesDevToolsSidebar: [],
