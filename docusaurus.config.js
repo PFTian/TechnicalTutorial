@@ -97,7 +97,7 @@ const config = {
             position: 'left',
             label: 'IEDs & Dev Tools',
           },
-          { to: "/resume", label: "Resume", position: "left" },
+          { to: "/blog", label: "Resume", position: "left" },
           {
             href: "https://github.com/PFTian/TechnicalTutorials",
             label: "GitHub",
