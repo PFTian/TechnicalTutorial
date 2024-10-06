@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Technical Tutorials",
+        title: "Technical Skills",
         logo: {
-          alt: "Technical Tutorials",
+          alt: "Technical Skills",
           src: "img/logo.svg",
         },
         items: [
@@ -91,9 +91,9 @@ const config = {
             position: 'left',
             label: 'IEDs & Dev Tools',
           },
-          { to: "/blog", label: "Resume", position: "left" },
+          { to: "/blog", label: "Resume", position: "right" },
           {
-            href: "https://github.com/PFTian/TechnicalTutorials",
+            href: "https://github.com/PFTian/",
             label: "GitHub",
             position: "right",
           },

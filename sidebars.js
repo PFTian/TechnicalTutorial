@@ -56,9 +56,24 @@ const sidebars = {
     //   items: ['devops/github/intro'],
     // }
   ],
-  dataOpsSidebar: [],
-  softwareEngineerSidebar: [],
-  idesDevToolsSidebar: [],
+  dataOpsSidebar: [
+    {
+      type: "doc",
+      id: "dataops/intro",
+    },
+  ],
+  softwareEngineerSidebar: [
+    {
+      type: "doc",
+      id: "software-engineer/intro",
+    },
+  ],
+  idesDevToolsSidebar: [
+    {
+      type: "doc",
+      id: "ides-and-dev-tools/intro",
+    },
+  ],
 };
 
 module.exports = sidebars;
