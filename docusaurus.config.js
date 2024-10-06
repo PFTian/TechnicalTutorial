@@ -81,15 +81,9 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'fullstack-backend/intro',
+            docId: 'software-engineer/intro',
             position: 'left',
-            label: 'Back-End',
-          },
-          {
-            type: 'doc',
-            docId: 'fullstack-frontend/intro',
-            position: 'left',
-            label: 'Front-End',
+            label: 'Software Engineer',
           },
           {
             type: 'doc',

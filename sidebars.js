@@ -57,8 +57,7 @@ const sidebars = {
     // }
   ],
   dataOpsSidebar: [],
-  backendSidebar: [],
-  frontendSidebar: [],
+  softwareEngineerSidebar: [],
   idesDevToolsSidebar: [],
 };
 
