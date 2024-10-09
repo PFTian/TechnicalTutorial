@@ -23,15 +23,18 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          path: "./resume",
+          routeBasePath: 'resume',
+          // editUrl:
+          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
+        
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -91,7 +94,7 @@ const config = {
             position: 'left',
             label: 'IEDs & Dev Tools',
           },
-          { to: "/blog", label: "Resume", position: "right" },
+          { to: "/resume", label: "Resume", position: "right" },
           {
             href: "https://github.com/PFTian/",
             label: "GitHub",
@@ -132,8 +135,8 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "Resume",
+                to: "/resume",
               },
               {
                 label: "GitHub",
