@@ -54,7 +54,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'scrum/intro',
+            docId: 'scrum/scrum-concepts',
             position: 'left',
             label: 'Scrum',
           },

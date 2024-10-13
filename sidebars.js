@@ -20,7 +20,27 @@ const sidebars = {
   scrumSidebar: [
     {
       type: "doc",
-      id: "scrum/intro",
+      id: "scrum/scrum-concepts",
+    },
+    {
+      type: "doc",
+      id: "scrum/scrum-team",
+    },
+    {
+      type: "doc",
+      id: "scrum/scrum-artifacts",
+    },
+    {
+      type: "doc",
+      id: "scrum/scrum-events",
+    },
+    {
+      type: "doc",
+      id: "scrum/defination-of-done",
+    },
+    {
+      type: "doc",
+      id: "scrum/product-delivery",
     },
   ],
   languagesSidebar: [
