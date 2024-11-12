@@ -5,7 +5,7 @@ authors: [pftian]
 tags: [Cloud Infrastructure, DevOps, DataOps]
 ---
 
-## OCT 2022 - Present 
+## Oct 2022 - Present 
 ### JLLT China - Jones Lang LaSalle
 
 1. Led Cloud Infrastructure engineers to establish and maintain Kubernetes clusters on Alibaba Cloud for the application development team. Additionally, devised and executed an enterprise big data platform leveraging Alibaba E-MapReduce service to support big data engineering team.

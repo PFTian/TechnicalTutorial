@@ -1,6 +1,6 @@
 ---
 slug: swu-network-engineering
-title: Network Engineering
+title: Bachelor of Network Engineering
 authors: [pftian]
 tags: []
 ---
