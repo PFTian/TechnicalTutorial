@@ -60,21 +60,56 @@ const sidebars = {
       type: "doc",
       id: "devops/intro",
     },
-    // {
-    //   type: 'category',
-    //   label: 'GitLab',
-    //   items: [
-    //     'devops/gitlab/gitlab-installation-ubuntu',
-    //     'devops/gitlab/gitlab-runner-installation-ubuntu',
-    //     'devops/gitlab/gitlab-backup-and-restore',
-    //     'devops/gitlab/gitlab-reactjs-ci-cd',
-    //   ],
-    // },
-    // {
-    //   type: 'category',
-    //   label: 'GitHub',
-    //   items: ['devops/github/intro'],
-    // }
+    {
+      type: 'category',
+      label: 'Git',
+      items: [
+        'devops/git/tips',
+      ]
+    },
+    {
+      type: 'category',
+      label: 'CICD',
+      items: [
+        'devops/cicd/intro',
+        {
+          type: 'category',
+          label: 'GitHub',
+          items: ['devops/cicd/github/intro'],
+        },
+        {
+          type: 'category',
+          label: 'GitLab',
+          items: [
+            'devops/cicd/gitlab/gitlab-installation-ubuntu',
+            'devops/cicd/gitlab/gitlab-runner-installation-ubuntu',
+            'devops/cicd/gitlab/gitlab-backup-and-restore',
+            'devops/cicd/gitlab/gitlab-reactjs-ci-cd',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Containerization',
+      items: [
+        'devops/containerization/intro',
+        {
+          type: 'category',
+          label: 'Docker',
+          items: [
+            'devops/containerization/docker/docker-installation'
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Kubernetes',
+          items: [
+            'devops/containerization/kubernetes/intro'
+          ]
+        },
+      ]
+    },
   ],
   dataOpsSidebar: [
     {

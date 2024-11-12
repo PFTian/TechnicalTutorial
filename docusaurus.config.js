@@ -31,8 +31,8 @@ const config = {
           // Please change this to your repo.
           path: "./resume",
           routeBasePath: 'resume',
-          // editUrl:
-          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          blogSidebarTitle: 'Experience',
+          blogSidebarCount: 'ALL'
         },
         
         theme: {
