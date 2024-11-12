@@ -31,7 +31,7 @@ const config = {
           // Please change this to your repo.
           path: "./resume",
           routeBasePath: 'resume',
-          blogSidebarTitle: 'Experience',
+          blogSidebarTitle: 'My Experience',
           blogSidebarCount: 'ALL'
         },
         

@@ -4,6 +4,7 @@ title: Management Skills
 authors: [pftian]
 tags: []
 ---
+
 ## Leadership & Management
 
 **Project Management:** Proficient in implementing best practices for collaborative efforts across multiple technical teams, using scrum methodologies to drive projects progression.
