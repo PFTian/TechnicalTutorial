@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/TechnicalTutorial/resume</id>
     <title>Technical Tutorial Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2022-10-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/TechnicalTutorial/resume"/>
     <subtitle>Technical Tutorial Blog</subtitle>
     <icon>https://your-docusaurus-test-site.com/TechnicalTutorial/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Senior DevOps Manager]]></title>
+        <id>https://your-docusaurus-test-site.com/TechnicalTutorial/resume/SeniorDevOpsManager</id>
+        <link href="https://your-docusaurus-test-site.com/TechnicalTutorial/resume/SeniorDevOpsManager"/>
+        <updated>2022-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OCT 2022 - Present]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_gnyd" id="oct-2022---present">OCT 2022 - Present<a href="https://your-docusaurus-test-site.com/TechnicalTutorial/resume/SeniorDevOpsManager#oct-2022---present" class="hash-link" aria-label="Direct link to OCT 2022 - Present" title="Direct link to OCT 2022 - Present">​</a></h2>
+<ol>
+<li>
+<p>Led Cloud Infrastructure engineers to establish and maintain Kubernetes clusters on Alibaba Cloud for the application development team. Additionally, devised and executed an enterprise big data platform leveraging Alibaba E-MapReduce service to support big data engineering team.</p>
+</li>
+<li>
+<p>Led DevOps engineers to develop CI/CD pipelines featuring canary deployment strategies, alongside implementing infrastructure as code (IaC) using tools such as Terraform. Ensured the source code and pipeline security through the utilization of snyk.</p>
+</li>
+<li>
+<p>Led DataOps engineers to implement end-to-end data pipelines supporting data ingestion, transformation, and storage. Enacted automated data workflows based on CI/CD principles using Airflow, Zeppelin, and the Alibaba Yunxiao platform.</p>
+</li>
+<li>
+<p>Oversaw cloud infrastructure on the Alibaba Cloud platform, prioritizing scalability, high availability, security, and cost optimization. Implemented cloud infrastructure and application monitoring and alerting systems, supplemented by alerting mechanisms using Grafana. Furthermore, formulated and validated disaster recovery procedures.</p>
+</li>
+<li>
+<p>Managed a team dedicated to supporting and maintaining existing onboarded applications and data products using Information Technology Infrastructure Library (ITIL) framework. Provided adept support in ticket resolution, incident management, and change requests.</p>
+</li>
+</ol>]]></content>
+        <author>
+            <name>Penfei TIAN (Leo)</name>
+            <uri>https://github.com/PFTian/</uri>
+        </author>
+        <category label="Cloud Infrastructure" term="Cloud Infrastructure"/>
+        <category label="DevOps" term="DevOps"/>
+        <category label="DataOps" term="DataOps"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://your-docusaurus-test-site.com/TechnicalTutorial/resume/welcome</id>
@@ -95,5 +127,20 @@
         </author>
         <category label="hola" term="hola"/>
         <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Frontend Mobile Engineer]]></title>
+        <id>https://your-docusaurus-test-site.com/TechnicalTutorial/resume/FrontendMobileEngineer</id>
+        <link href="https://your-docusaurus-test-site.com/TechnicalTutorial/resume/FrontendMobileEngineer"/>
+        <updated>2016-02-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Feb 2016 – Mar 2017]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_gnyd" id="feb-2016--mar-2017">Feb 2016 – Mar 2017<a href="https://your-docusaurus-test-site.com/TechnicalTutorial/resume/FrontendMobileEngineer#feb-2016--mar-2017" class="hash-link" aria-label="Direct link to Feb 2016 – Mar 2017" title="Direct link to Feb 2016 – Mar 2017">​</a></h2>]]></content>
+        <author>
+            <name>Penfei TIAN (Leo)</name>
+            <uri>https://github.com/PFTian/</uri>
+        </author>
+        <category label="Cloud Infrastructure" term="Cloud Infrastructure"/>
+        <category label="DevOps" term="DevOps"/>
+        <category label="DataOps" term="DataOps"/>
     </entry>
 </feed>

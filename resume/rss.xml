@@ -4,10 +4,38 @@
         <title>Technical Tutorial Blog</title>
         <link>https://your-docusaurus-test-site.com/TechnicalTutorial/resume</link>
         <description>Technical Tutorial Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 01 Oct 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Senior DevOps Manager]]></title>
+            <link>https://your-docusaurus-test-site.com/TechnicalTutorial/resume/SeniorDevOpsManager</link>
+            <guid>https://your-docusaurus-test-site.com/TechnicalTutorial/resume/SeniorDevOpsManager</guid>
+            <pubDate>Sat, 01 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[OCT 2022 - Present]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_gnyd" id="oct-2022---present">OCT 2022 - Present<a href="https://your-docusaurus-test-site.com/TechnicalTutorial/resume/SeniorDevOpsManager#oct-2022---present" class="hash-link" aria-label="Direct link to OCT 2022 - Present" title="Direct link to OCT 2022 - Present">​</a></h2>
+<ol>
+<li>
+<p>Led Cloud Infrastructure engineers to establish and maintain Kubernetes clusters on Alibaba Cloud for the application development team. Additionally, devised and executed an enterprise big data platform leveraging Alibaba E-MapReduce service to support big data engineering team.</p>
+</li>
+<li>
+<p>Led DevOps engineers to develop CI/CD pipelines featuring canary deployment strategies, alongside implementing infrastructure as code (IaC) using tools such as Terraform. Ensured the source code and pipeline security through the utilization of snyk.</p>
+</li>
+<li>
+<p>Led DataOps engineers to implement end-to-end data pipelines supporting data ingestion, transformation, and storage. Enacted automated data workflows based on CI/CD principles using Airflow, Zeppelin, and the Alibaba Yunxiao platform.</p>
+</li>
+<li>
+<p>Oversaw cloud infrastructure on the Alibaba Cloud platform, prioritizing scalability, high availability, security, and cost optimization. Implemented cloud infrastructure and application monitoring and alerting systems, supplemented by alerting mechanisms using Grafana. Furthermore, formulated and validated disaster recovery procedures.</p>
+</li>
+<li>
+<p>Managed a team dedicated to supporting and maintaining existing onboarded applications and data products using Information Technology Infrastructure Library (ITIL) framework. Provided adept support in ticket resolution, incident management, and change requests.</p>
+</li>
+</ol>]]></content:encoded>
+            <category>Cloud Infrastructure</category>
+            <category>DevOps</category>
+            <category>DataOps</category>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://your-docusaurus-test-site.com/TechnicalTutorial/resume/welcome</link>
@@ -76,6 +104,17 @@
             <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
             <category>hola</category>
             <category>docusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[Frontend Mobile Engineer]]></title>
+            <link>https://your-docusaurus-test-site.com/TechnicalTutorial/resume/FrontendMobileEngineer</link>
+            <guid>https://your-docusaurus-test-site.com/TechnicalTutorial/resume/FrontendMobileEngineer</guid>
+            <pubDate>Mon, 15 Feb 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Feb 2016 – Mar 2017]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_gnyd" id="feb-2016--mar-2017">Feb 2016 – Mar 2017<a href="https://your-docusaurus-test-site.com/TechnicalTutorial/resume/FrontendMobileEngineer#feb-2016--mar-2017" class="hash-link" aria-label="Direct link to Feb 2016 – Mar 2017" title="Direct link to Feb 2016 – Mar 2017">​</a></h2>]]></content:encoded>
+            <category>Cloud Infrastructure</category>
+            <category>DevOps</category>
+            <category>DataOps</category>
         </item>
     </channel>
 </rss>
