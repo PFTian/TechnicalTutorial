@@ -48,6 +48,20 @@ const sidebars = {
       type: "doc",
       id: "languages/intro",
     },
+    {
+      type: "category",
+      label: "CSharp",
+      items: [
+        "languages/csharp/intro"
+      ]
+    },
+    {
+      type: "category",
+      label: "Java",
+      items: [
+        "languages/java/tips"
+      ]
+    },
   ],
   cloudInfraSidebar: [
     {
@@ -151,7 +165,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'security',
+      label: 'Security',
       items: [
         'devops/security/snyk',
       ]
@@ -187,17 +201,67 @@ const sidebars = {
       ]
     },
   ],
-  softwareEngineerSidebar: [
+  softwareDevlopmentSidebar: [
     {
       type: "doc",
-      id: "software-engineer/intro",
+      id: "software-development/intro",
     },
+    {
+      type: "category",
+      label: "Backend",
+      items: [
+        {
+          type: "category",
+          label: "Node JS",
+          items: [
+            "software-development/backend/nodejs/intro"
+          ]
+        },
+        "software-development/backend/intro",
+        "software-development/backend/microservice",
+        "software-development/backend/restful-api",
+        "software-development/backend/unit-test"
+      ]
+    },
+    {
+      type: "category",
+      label: "Frontend",
+      items: [
+        {
+          type: "category",
+          label: "ReactJS",
+          items: [
+            "software-development/frontend/reactjs/eslint-prettier-reactjs"
+          ]
+        },
+        {
+          type: "category",
+          label: "React-Native",
+          items: [
+            "software-development/frontend/reactnative/add-redux-to-react-native",
+            "software-development/frontend/reactnative/create-theme-for-react-native-app",
+            "software-development/frontend/reactnative/how-to-manage-staging-and-production-environments-in-react-native",
+            "software-development/frontend/reactnative/tips",
+          ]
+        },
+        "software-development/frontend/unit-test"
+      ]
+    }
   ],
   idesDevToolsSidebar: [
     {
       type: "doc",
       id: "ides-and-dev-tools/intro",
     },
+    {
+      type: "doc",
+      id: "ides-and-dev-tools/vscode-plugins",
+    },
+    {
+      type: "doc",
+      id: "ides-and-dev-tools/iterm2/config-iterm2-on-mac",
+    },
+    
   ],
 };
 

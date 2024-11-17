@@ -1,1 +1,1 @@
-This is where I will introduce Devops
+This is where I will introduce how to configure IDEs

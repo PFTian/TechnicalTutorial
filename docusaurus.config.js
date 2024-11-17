@@ -84,15 +84,15 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'software-engineer/intro',
+            docId: 'software-development/intro',
             position: 'left',
-            label: 'Software Engineer',
+            label: 'Software Development',
           },
           {
             type: 'doc',
             docId: 'ides-and-dev-tools/intro',
             position: 'left',
-            label: 'IEDs & Dev Tools',
+            label: 'IDEs & Dev Tools',
           },
           { to: "/resume", label: "Resume", position: "right" },
           {
