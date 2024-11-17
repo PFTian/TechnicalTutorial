@@ -51,9 +51,46 @@ const sidebars = {
   ],
   cloudInfraSidebar: [
     {
+      type: "category",
+      label: "Maintenance",
+      items: [
+        "cloud-infrastructure/maintenance/ITIL",
+        "cloud-infrastructure/maintenance/incident-management",
+        "cloud-infrastructure/maintenance/change-request",
+      ]
+    },
+    {
+      type: "category",
+      label: "Monitoring",
+      items: [
+        "cloud-infrastructure/monitoring/datadog",
+        "cloud-infrastructure/monitoring/grafana",
+        "cloud-infrastructure/monitoring/prometheus",
+      ]
+    },
+    {
+      type: "category",
+      label: "Log Management",
+      items: [
+        "cloud-infrastructure/log/splunk"
+      ]
+    },
+    {
       type: "doc",
       id: "cloud-infrastructure/intro",
     },
+    {
+      type: "doc",
+      id: "cloud-infrastructure/DR",
+    },
+    {
+      type: "doc",
+      id: "cloud-infrastructure/IaC",
+    },
+    {
+      type: "doc",
+      id: "cloud-infrastructure/terraform",
+    }
   ],
   devopsSidebar: [
     {
@@ -64,6 +101,7 @@ const sidebars = {
       type: 'category',
       label: 'Git',
       items: [
+        'devops/git/branching-strategy',
         'devops/git/tips',
       ]
     },
@@ -72,6 +110,7 @@ const sidebars = {
       label: 'CICD',
       items: [
         'devops/cicd/intro',
+        'devops/cicd/canary-deployment',
         {
           type: 'category',
           label: 'GitHub',
@@ -110,11 +149,42 @@ const sidebars = {
         },
       ]
     },
+    {
+      type: 'category',
+      label: 'security',
+      items: [
+        'devops/security/snyk',
+      ]
+    },
   ],
   dataOpsSidebar: [
     {
       type: "doc",
       id: "dataops/intro",
+    },
+    {
+      type: "doc",
+      id: "dataops/airflow",
+    },
+    {
+      type: "doc",
+      id: "dataops/flink",
+    },
+    {
+      type: "doc",
+      id: "dataops/kafka",
+    },
+    {
+      type: "doc",
+      id: "dataops/mapreduce",
+    },
+    {
+      type: "category",
+      label: "Notebook",
+      items: [
+        "dataops/notebook/zeppelin",
+        "dataops/notebook/jupyter"
+      ]
     },
   ],
   softwareEngineerSidebar: [
