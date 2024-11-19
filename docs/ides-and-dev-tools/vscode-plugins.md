@@ -7,6 +7,7 @@
 ### 5. Code Formatter --> Prettier
 ### 6. Indent-rainbow
 ### 7. YAML
+### 8. Jest -- Unit Test
 
 
 ## Markdown
