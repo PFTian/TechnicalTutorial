@@ -21,4 +21,4 @@ This is the introduction of Kubernetes
    * Contianer Runtime (containerd)
    * kube Proxy
 
-# 2. kubctl
+# 2. kubectl
