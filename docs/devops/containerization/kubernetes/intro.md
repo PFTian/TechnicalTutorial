@@ -68,6 +68,23 @@ This is the introduction of Kubernetes
      kubectl exec pod-name -c container-name -- ps aux
      ```
 
+     * Check rollout history
+     ```
+     kubectl rollout history deployment deployment-name
+     ```
+
+     * Rollout to deployment
+     ```
+     kubectl rollout undo deployment deployment-name // preivous version
+     kubectl rollout undo deployment deployment-name --to-revision=1
+     ```
+
+     * Pause and Resume deployment
+     ```
+     kubectl rollout pause deployment deployment-name
+     kubectl rollout resume deployment deployment-name
+     ```
+
 # 3. what is Pod (Smallest deployable Unit of k8s)
 
      * Relationship between Pod and containers?
@@ -84,3 +101,16 @@ This is the introduction of Kubernetes
      Replica Set Defination here
 
      Relative kubectl about Deployment
+
+     Two Deployment stratgies: Recreate & Rolling Update
+
+# 5. Services
+
+     Services Definations here
+
+     Types of Services
+     
+          * ClusterIP
+          * NodePort
+          * ExternalName
+          * LoadBalancer
