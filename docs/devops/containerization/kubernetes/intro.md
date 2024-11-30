@@ -114,3 +114,5 @@ This is the introduction of Kubernetes
           * NodePort
           * ExternalName
           * LoadBalancer
+  
+# 6 Labels, Selector & Annotations
