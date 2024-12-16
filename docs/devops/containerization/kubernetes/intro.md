@@ -1,7 +1,7 @@
 This is the introduction of Kubernetes
 
 # 1. kubernetes architecture
-## master node
+## Control Plane (Master Node)
    * API Server
    * Scheduler
    * cluster Store
