@@ -62,6 +62,15 @@ const sidebars = {
         "languages/java/tips"
       ]
     },
+    {
+      type: "category",
+      label: "Javascript",
+      items: [
+        "languages/javascript/what-is-promise",
+        "languages/javascript/what-is-babel",
+        "languages/javascript/what-is-ES6"
+      ]
+    },
   ],
   cloudInfraSidebar: [
     {
@@ -229,19 +238,35 @@ const sidebars = {
       items: [
         {
           type: "category",
-          label: "ReactJS",
+          label: "React",
           items: [
-            "software-development/frontend/reactjs/eslint-prettier-reactjs"
-          ]
-        },
-        {
-          type: "category",
-          label: "React-Native",
-          items: [
-            "software-development/frontend/reactnative/add-redux-to-react-native",
-            "software-development/frontend/reactnative/create-theme-for-react-native-app",
-            "software-development/frontend/reactnative/how-to-manage-staging-and-production-environments-in-react-native",
-            "software-development/frontend/reactnative/tips",
+            {
+              type: "category",
+              label: "ReactJS",
+              items: [
+                "software-development/frontend/react/reactjs/intro",
+              ]
+            },
+            {
+              type: "category",
+              label: "React-Native",
+              items: [
+                "software-development/frontend/react/reactnative/add-redux-to-react-native",
+                "software-development/frontend/react/reactnative/create-theme-for-react-native-app",
+                "software-development/frontend/react/reactnative/how-to-manage-staging-and-production-environments-in-react-native",
+                "software-development/frontend/react/reactnative/tips",
+              ]
+            },
+            {
+              type: "category",
+              label: "Hooks",
+              items: [
+                "software-development/frontend/react/hooks/react-hooks",
+              ]
+            },
+            "software-development/frontend/react/promise-in-react",
+            "software-development/frontend/react/class-vs-functional-component",
+            "software-development/frontend/react/eslint-prettier-reactjs",
           ]
         },
         "software-development/frontend/unit-test"
