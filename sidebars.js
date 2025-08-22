@@ -66,6 +66,7 @@ const sidebars = {
       type: "category",
       label: "Javascript",
       items: [
+        "languages/javascript/concepts",
         "languages/javascript/what-is-promise",
         "languages/javascript/what-is-babel",
         "languages/javascript/what-is-ES6"
